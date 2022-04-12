@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Nanum+Gothic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Nanum+Gothic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Nanum+Gothic:wght@700&display=swap");
+
+/* colors */
+:root {
+  --theme-color: #903ddf;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --light-gray: #999999;
+}
+/* colors */
+
+.text-alignment {
+  text-align: center;
+}
+/* ------fonts start-------- */
+.font-14 {
+  font-size: 0.875rem !important;
+  font-family: "Inter", sans-serif;
+}
+.font-44 {
+  font-size: 2.75rem !important;
+}
+.font-16 {
+  font-size: 1rem !important;
+}
+/* ------fonts End-------- */
+
+.letter-spacing5 {
+  letter-spacing: 6px;
+}
+
+/* ---------------btn style start---------- */
+.btn-theme {
+  background-color: var(--theme-color);
+  color: var(--white-color);
+  border: 1px solid var(--theme-color);
+  font-size: 18px;
+  padding: 17px 25px;
+  font-family: "Inter", sans-serif !important;
+  cursor: pointer;
+}
+.btn {
+  padding: 17px 25px;
+  line-height: 1.25;
+  font-size: 18px;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif !important;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  outline: 0;
+  box-shadow: none !important;
+}
+/* ---------------btn style End---------- */
+
+.font-Inter-600 {
+  font-family: "Inter", sans-serif !important;
+}
+.font-Inter-400 {
+  font-family: "Inter", sans-serif !important;
+}
+
+.font-drak-gray {
+  color: #515151 !important;
+}
+
+/* -------------------page  decscription start-------------- */
+.feature {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  letter-spacing: -0.01em;
+  font-family: "Inter", sans-serif !important;
+  color: var(--black-color);
+}
+.decription {
+  font-family: "Inter", sans-serif !important;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: -0.01em;
+  color: var(--light-gray);
+}
+/* -------------------page  decscription End-------------- */
+
+@media only screen and (min-width: 1024px) {
+  .content {
+    padding: 0rem 5rem !important;
+  }
+}
+.line-height-16 {
+  line-height: 1.6rem;
+}
+.line-height-20 {
+  line-height: 1.22rem;
+}
+.fw-600 {
+  font-weight: 600;
+}
